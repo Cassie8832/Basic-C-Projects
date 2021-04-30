@@ -16,7 +16,7 @@ namespace Assignment
 
             //====== PART ONE =======
 
-            // 1. Create a one-dimensional array of strings.
+            1.///Create a one-dimensional array of strings.
             string[] greeting = { "Hello, ", "Today is a new day, ", "New opportunities await you, ", "Make the most of it, " };
             // 2. Ask the user to input some text.
             Console.WriteLine("Please add your name.");
