@@ -13,7 +13,7 @@ namespace MethodSubmission
             MathOperation mathObject = new MathOperation();
             Console.WriteLine("Input a number");
             int num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("If you want, enter a second number, even though this is not necessary.");
+            Console.WriteLine("If you want, enter a second number, this is optional.");
             int num2;
             try
             {
