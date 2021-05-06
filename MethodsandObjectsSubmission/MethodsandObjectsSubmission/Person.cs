@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace MethodsAndObjectsSubmission
 {
-    public class Person
+    public class Person   //created class called Person
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string FirstName { get; set; } //gave property first name
+        public string LastName { get; set; } //last name
 
-        public void SayName()
+        public void SayName() //sayname property
         {
             string fullName = FirstName + " " + LastName;
             Console.WriteLine($"Name: [{fullName}]");

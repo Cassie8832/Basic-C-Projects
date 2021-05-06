@@ -10,10 +10,10 @@ namespace MethodsAndObjectsSubmission
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
-            employee.FirstName = "Sample";
-            employee.LastName = "Student";
-            employee.SayName();
+            Employee employee = new Employee(); //instantiate employee object
+            employee.FirstName = "Sample"; //initialize employee object with first name sample
+            employee.LastName = "Student"; //initailize employee object with last name student
+            employee.SayName(); //sayname superclass method
             Console.ReadLine();
         }
     }
