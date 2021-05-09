@@ -18,7 +18,7 @@ namespace Casino
         public List<Card> Hand { get {return _hand; } set { _hand = value; } }
         public int Balance { get; set; }
         public string Name { get; set; }
-        public bool isActivePlaying { get; set; }
+        public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
         public Guid Id { get; set; }
         public bool Bet(int amount)
