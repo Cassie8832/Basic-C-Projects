@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.IO;
+﻿using Casino;
+using Casino.TwentyOne;
+using System;
+
+
+
 
 namespace TwentyOne
 {
@@ -12,8 +12,6 @@ namespace TwentyOne
         static void Main(string[] args)
         {
             
-
-
             Console.WriteLine("Welcome to the Grande Hotel and Casino. Le's start by telling me your name.");
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
