@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CarInsurance.Models
+namespace CassieInsurance.Models
 {
     using System;
     using System.Collections.Generic;
@@ -20,15 +20,11 @@ namespace CarInsurance.Models
         public string EmailAddress { get; set; }
         public System.DateTime DateOfBirth { get; set; }
         public int CarYear { get; set; }
+        public string CarMake { get; set; }
         public string CarModel { get; set; }
         public bool DUI { get; set; }
         public int SpeedingTickets { get; set; }
-        public bool CoverType { get; set; }
+        public bool CoverageType { get; set; }
         public decimal Quote { get; set; }
-
-        internal decimal determineInsuranceQuote()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
